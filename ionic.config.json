@@ -1,0 +1,8 @@
+{
+  "name": "MoviePoints",
+  "app_id": "9af85a22",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
