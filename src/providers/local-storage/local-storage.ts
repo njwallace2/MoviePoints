@@ -50,7 +50,7 @@ export class LocalStorageProvider {
           .catch(e => console.error(e));
       });
   }
-
+//poopoo
   addDeveloper(name, skill, years) {
     let data = [name, skill, years]
     return this.database.executeSql("INSERT INTO developer (name, skill, yearsOfExperience) VALUES (?, ?, ?)", data).then(data => {
